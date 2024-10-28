@@ -34,4 +34,6 @@ void main(int argc, char** argv) {
         execv(filename, args);
     }
 
+    exit(EXIT_SUCCESS);
+    
 }
